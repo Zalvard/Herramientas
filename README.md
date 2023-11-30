@@ -6,7 +6,9 @@ Repositorio de scripts/herramientas para diversas funciones
 ### scan.nse
 
 Script básico para escaneo hecho en Lua para Nmap. Enumera puertos abiertos por TCP.
+
 ---
+
 ### xmlrpc_bf.sh
 
 Script en bash para enumerar credenciales válidas en Wordpress a través del archivo xmlrpc.php mediante fuerza bruta por medio del método "wp.getUsersBlogs".  Previamente hay que comprobar si dicho archivo está expuesto y el método está disponible y tener nombres de usuario potencialmente válidos. Para enumerar los métodos disponibles, se puede hacer una petición POST a dicho recurso mediante un archivo con una estructura XML como la siguiente:
