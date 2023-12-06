@@ -36,3 +36,7 @@ Si alguna contraseña coincide con el usuario dado se mostrará en la terminal.
 
 ---
 
+### time_based_blind_sqli.py
+
+Script en Python para enumerar bases de datos por medio de un ataque de inyección sql a ciegas basado en tiempo. El funcionamiento básico es comprobar carácter a carácter el campo que queremos volcar, el cual utiliza la función Sleep para comprobar si el resultado de la query tuvo éxito o no.
+
